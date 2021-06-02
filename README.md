@@ -9,6 +9,11 @@ Capteur de pression absolue compatible Arduino™.
 
 ![L-33187](/img/L-33187.jpg)
 
+# RESSOURCES À TÉLÉCHARGER :
+
+Ressource utilisation : [NOTICE](https://github.com/pierron-asco-celda/33187-CAPTEUR-PRESSION/blob/main/src/Pierron-33187-Datasheet.pdf)
+
+
 # Schémas :
 
 ![SCH-33187](/img/SCH-33187.JPG)
@@ -42,10 +47,11 @@ void loop() {
 float getPression(int analogPin){
   float v = analogRead(analogPin)*5.0 / 1023; // Volts
   return v / GAIN * 1000 / SENSIBILITY; // kPa
-}```
+}
+```
 ## À propos :
 
-PIERRON ASCO-CELDA (https://www.pierron.fr/).
+PIERRON ASCO-CELDA (https://www.pierron.fr).
 
 
 
