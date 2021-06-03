@@ -1,6 +1,6 @@
 # 33187-CAPTEUR DE PRESSION POUR ARDUINO
 
-CAPTEUR PRESSION [33187](https://www.pierron.fr/capteur-de-pression-pour-arduinotm.html)
+CAPTEUR PRESSION POUR ARDUINO [33187](https://www.pierron.fr/capteur-de-pression-pour-arduinotm.html)
 
 Capteur de pression absolue compatible Arduino™.
 - Alimentation : 5 V
