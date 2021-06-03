@@ -3,7 +3,20 @@
 CAPTEUR PRESSION POUR ARDUINO [33187](https://www.pierron.fr/capteur-de-pression-pour-arduinotm.html)
 
 Capteur de pression absolue compatible Arduino™.
-- Alimentation : 5 V
+
+- Tension d’alimentation maximale: 5-12V DC
+- Plage d’écoulement de l’eau : 0,3-6 L/min
+- Diamètre intérieur: 4 mm
+- Diamètre extérieur: 7 mm
+- Taille de la buse Standard: Type 18 (1/8 " / 3.175mm) 
+- Pression d’eau d’épreuve: <0,8 MPa
+- Courant de fonctionnement: 15 mA (DC 5V)
+- Résistance d’isolation: >100 MΩ
+- Précision : ±5 % 
+- L’impulsion de sortie de haut niveau: >4.5 VCC (tension d’entrée CC 5 V)
+- L’impulsion de sortie bas niveau: <0.5 VCC (tension d’entrée CC 5 V)
+- Formule d’écoulement de l’eau: 1L = 5880 ondes carrées
+- Plage d’humidité de travail: 35% ~ 90% HR (pas de gel)
 - Plage de mesure : 0 à 200 kPa
 - Résolution : 25 mV/kPa
 
