@@ -1,4 +1,4 @@
-# 33187-CAPTEUR DE PRESSION POUR ARDUINO
+# 33187 Capteur de pression pour ARDUINO
 
 CAPTEUR PRESSION POUR ARDUINO [33187](https://www.pierron.fr/capteur-de-pression-pour-arduinotm.html)
 
