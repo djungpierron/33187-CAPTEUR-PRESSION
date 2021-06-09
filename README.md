@@ -12,7 +12,7 @@ Capteur de pression absolue compatible Arduino™.
 
 # RESSOURCES À TÉLÉCHARGER :
 
-Ressource utilisation : [NOTICE](https://github.com/pierron-asco-celda/33187-CAPTEUR-PRESSION/blob/main/src/Pierron-33187-Datasheet.pdf)
+Ressource utilisation : [MPX2202](https://github.com/pierron-asco-celda/33187-CAPTEUR-PRESSION/blob/main/src/Pierron-33187-Datasheet.pdf)
 
 
 # Schémas :
