@@ -31,7 +31,7 @@ Ressource utilisation : [MPX2202](https://github.com/pierron-asco-celda/33187-CA
 #include <Arduino.h>
 #include <SoftwareSerial.h>
 
-const float GAIN = 248.9; 
+const float GAIN = 248.9; // cf. datasheet
 const float SENSIBILITY = 0.1;
 const int sensor_pin = A1;
  
@@ -47,8 +47,8 @@ void loop() {
 }
 
 float getPression(int analogPin){
-  float v = analogRead(analogPin)*5.0 / 1023; 
-  return v / GAIN * 1000 / SENSIBILITY; 
+  float v = analogRead(analogPin)*5.0 / 1023; // cf. datasheet
+  return v / GAIN * 1000 / SENSIBILITY; // cf. datasheet
 }
 ```
 ## À propos :
