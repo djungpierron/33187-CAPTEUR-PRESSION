@@ -27,11 +27,12 @@ Ressource utilisation : [MPX2202](https://github.com/pierron-asco-celda/33187-CA
 
 ### Arduino / C++ :
 ```cpp
+//baud rate 960;*
 #include <Arduino.h>
 #include <SoftwareSerial.h>
 
-const float GAIN = 248.9; // Ampli-op Gain 
-const float SENSIBILITY = 0.1; //Sensibility of the sensor
+const float GAIN = 248.9; 
+const float SENSIBILITY = 0.1;
 const int sensor_pin = A1;
  
 void setup() {
@@ -46,12 +47,13 @@ void loop() {
 }
 
 float getPression(int analogPin){
-  float v = analogRead(analogPin)*5.0 / 1023; // Volts
-  return v / GAIN * 1000 / SENSIBILITY; // kPa
+  float v = analogRead(analogPin)*5.0 / 1023; 
+  return v / GAIN * 1000 / SENSIBILITY; 
 }
 ```
 ## À propos :
-
+<div style="text-align: justify">*Le débit en bauds est un taux de transfert de données en unités de bits par seconde (bps). Si le débit en bauds est de 9600, cela signifie que la possibilité d’envoyer des données est de 9600 bits en une seconde. 1 caractère est identique à 1 octet.</div>
+<br>
 PIERRON ASCO-CELDA (https://www.pierron.fr).
 
 
