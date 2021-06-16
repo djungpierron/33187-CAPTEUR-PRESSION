@@ -27,7 +27,11 @@ Ressource utilisation : [MPX2202](https://github.com/pierron-asco-celda/33187-CA
 
 ### Arduino / C++ :
 ```cpp
-//baud rate 9600;*
+/*
+    ** Mesure pression module Grove **
+       PIN A1 Module shield GROVE
+       Moniteur série -> Baud rate 9600.*
+*/
 #include <Arduino.h>
 #include <SoftwareSerial.h>
 
