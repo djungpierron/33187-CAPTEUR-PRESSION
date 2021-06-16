@@ -27,7 +27,7 @@ Ressource utilisation : [MPX2202](https://github.com/pierron-asco-celda/33187-CA
 
 ### Arduino / C++ :
 ```cpp
-//baud rate 960;*
+//baud rate 9600;*
 #include <Arduino.h>
 #include <SoftwareSerial.h>
 
